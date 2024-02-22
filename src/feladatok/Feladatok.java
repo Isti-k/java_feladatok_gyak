@@ -62,7 +62,7 @@ public class Feladatok {
         
         System.out.println("6. feladat:");
         for (int i = 0; i < Lista; i++) {
-            szamok[2] = 1/3;
+            szamok[2] = 1.0/3;
             if (szamok[i] > 0){
                 System.out.println(szamok[i]);
             }
@@ -73,8 +73,8 @@ public class Feladatok {
         
         System.out.println("7. feladat:");
         for (int i = 0; i < Lista; i++) {
-            szamok[3] = rnd.nextDouble(10.2,19.51);
-            szamok[4] = rnd.nextDouble(10.2,19.51);
+            szamok[3] = rnd.nextDouble(10.11,19.51);
+            szamok[4] = rnd.nextDouble(10.11,19.51);
             System.out.println(szamok[i]);
         }
         
